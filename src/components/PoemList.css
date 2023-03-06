@@ -60,3 +60,99 @@ button[type="submit"]:hover {
 }
 
 
+button.delete-btn {
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+.poem-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  overflow: hidden;
+  padding: 20px;
+  position: relative;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.poem-card:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+}
+
+.poem-card h2 {
+  color: #2c3e50;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 10px;
+}
+
+.poem-card p {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.4;
+  margin: 0 0 10px;
+}
+
+.poem-card span {
+  color: #888;
+  font-size: 14px;
+  font-style: italic;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+/* PoemCard.css */
+.poem-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.poem-card h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.poem-card p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.poem-card span {
+  font-size: 14px;
+  font-style: italic;
+}
+
+/* PoemList.css */
+.poem-list-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.search-bar input:focus {
+  outline: none;
+  border-bottom: 2px solid #5e6efe;
+}
+
+/* App.css */
+body {
+  background-color: #f2f2f2;
+}
